@@ -67,6 +67,4 @@ The stress test script prints a summary to the terminal and saves a chart named 
 - If `yfinance` cannot reach remote data sources (network/proxy issues), `data_fetcher.py` falls back to generating realistic-looking synthetic price series so downstream analysis can continue offline.
 - You can control proxy settings via the `HTTPS_PROXY` / `https_proxy` environment variable or by modifying the call to `fetch_daily_returns()`.
 
----
 
-If you want, I can also add a minimal `README` section in Chinese, create a GitHub Actions workflow to run the scripts, or prepare a `requirements-dev.txt` with pinned versions.
